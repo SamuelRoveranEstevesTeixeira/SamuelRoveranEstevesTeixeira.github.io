@@ -4,44 +4,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/images.png">
     <link rel="stylesheet" href="style.css">
-    <title>Cronômetro JS</title>
+    <title>Previsão do tempo</title>
 </head>
 
 <body>
 
+
+
     <div class="container">
 
+        <div class="titulo">
 
-        <header>
+            <p>Cidade: <span id="span_cidade"></span></p>
 
-            <h1>🕒🕒 CRONÔMETRO 🕒🕒</h1>
+        </div>
 
-        </header>
+        <div class="dias">
+            <div class="hoje">
 
-        <main>
-
-            <p id="relogio">
-
-                <span id="minutos">00</span>
-                .
-                <span id="segundos">00</span>
-                .
-                <span id="milisegundos">000</span>
+                <p>Hoje: </p>
 
 
+                <br>
 
-            </p>
+                <p>Condição: <span id="span_descricao"></span></p>
+                <p>Temperatura: <span id="span_temperatura"></span>°</p>
+                <p>Umidade do ar: <span id="span_umidade"></span>%</p>
+                <p>Data: <span id="span_data"></span></p>
+                <p>Hora: <span id="span_hora"></span></p>
+                <p>Velocidade do vento: <span id="span_vento"></span></p>
 
-            <button>START</button>
-            <button>STOP</button>
-            <button>RESET</button>
+            </div>
 
 
-        </main>
+            <br>
+
+            <div class="amanha">
+
+                <p>Amanhã: </p>
+
+                <br>
+
+                <p>Condição: <span id="span_descricao_1"></span></p>
+                <p>Temperatura Mínima: <span id="span_temperatura_min_1"></span>°</p>
+                <p>Temperatura Máxima: <span id="span_temperatura_max_1"></span>°</p>
+                <p>Umidade do ar: <span id="span_umidade_1"></span>%</p>
+                <p>Data: <span id="span_data_1"></span></p>
+                <p>Hora: <span id="span_hora_1"></span></p>
+                <p>Velocidade do vento: <span id="span_vento_1"></span></p>
+
+            </div>
+
+
+
+            <div class="depoisamanha">
+
+                <p>Depois de amanhã: </p>
+
+                <br>
+
+                <p>Condição: <span id="span_descricao_2"></span></p>
+                <p>Temperatura Mínima: <span id="span_temperatura_min_2"></span>°</p>
+                <p>Temperatura Máxima: <span id="span_temperatura_max_2"></span>°</p>
+                <p>Umidade do ar: <span id="span_umidade_2"></span>%</p>
+                <p>Data: <span id="span_data_2"></span></p>
+                <p>Hora: <span id="span_hora_2"></span></p>
+                <p>Velocidade do vento: <span id="span_vento_2"></span></p>
+
+
+
+            </div>
+
+
+            </div>
+
+
+        </div>
+
 
     </div>
+
+
+
+
 
 
 
